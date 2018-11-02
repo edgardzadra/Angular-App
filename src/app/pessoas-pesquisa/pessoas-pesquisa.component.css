@@ -1,0 +1,8 @@
+.col-acoes a{
+  text-decoration: none;
+  color: black;
+}
+
+body .ui-table .ui-table-tbody > tr > td {
+  padding: 0px;
+}
