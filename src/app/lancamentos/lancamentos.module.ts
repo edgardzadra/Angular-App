@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
 import { TooltipModule } from 'primeng/tooltip';
@@ -26,8 +27,8 @@ import { CommonModule } from '@angular/common';
     CalendarModule,
     SelectButtonModule,
     DropdownModule,
-    //InputMaskModule,
-    CurrencyMaskModule
+    CurrencyMaskModule,
+    SharedModule
   ],
   declarations: [LancamentoCadastroComponent,
                  LancamentosPesquisaComponent,
