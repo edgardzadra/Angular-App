@@ -1,5 +1,5 @@
 <p-table [value]="lancamentos" [paginator]="true" [rows]="4"
-[responsive]="true">
+[responsive]="true" emptyMessage="nenhum registro encontrado">
 <ng-template pTemplate="header">
   <tr>
     <th>Pessoa</th>
@@ -15,7 +15,7 @@
   <tr>
     <td>
       <span class="ui-column-title">Pessoa</span>
-      {{lancamento.pessoa}}
+      {{lancamento.pessoa.nome}}
     </td>
     <td>
         <span class="ui-column-title">Descrição</span>

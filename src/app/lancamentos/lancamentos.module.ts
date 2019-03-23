@@ -14,6 +14,7 @@ import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-ca
 import { InputTextModule } from 'primeng/inputtext';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { LancamentoService } from './lancamento.service';
 
 @NgModule({
   imports: [
@@ -36,6 +37,7 @@ import { CommonModule } from '@angular/common';
   exports: [
     LancamentoCadastroComponent,
     LancamentosPesquisaComponent
-  ]
+  ],
+  providers: [LancamentoService]
 })
 export class LancamentosModule { }
